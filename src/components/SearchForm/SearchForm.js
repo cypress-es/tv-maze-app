@@ -6,10 +6,24 @@ import Select from '../Select/Select';
 
 import style from './SearchForm.module.scss';
 
+const optionsInitialState = {};
+
 const SearchForm = ({ onSubmit }) => {
   const [inputValue, setValue] = useState('');
   const [showFilters, toggleFilter] = useState(false);
-  const [selectedOptions, setSelectedOptions] = useState({});
+  const [selectedOptions, setSelectedOptions] = useState(optionsInitialState);
+  const handleFilterToggle = () => {
+    toggleFilter(!showFilters)
+    console.log(showFilters);
+    if (showFilters) {
+      console.log('????');
+      onSubmit({
+        inputValue,
+        selectedOptions: optionsInitialState,
+      });
+      setSelectedOptions(optionsInitialState);
+    }
+  };
 
   const changeSelect = type => newValue => {
     setSelectedOptions({
@@ -74,7 +88,8 @@ const SearchForm = ({ onSubmit }) => {
           <button
             className={`button-primary ${style.filterButton}`}
             data-cy="filter-button"
-            onClick={() => toggleFilter(!showFilters)}
+            type="button"
+            onClick={() => handleFilterToggle()}
           >
             {!showFilters ? (
               <img data-cy="filter-on-image" src={filterIcon} alt="filter icon on" />
