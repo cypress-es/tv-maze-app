@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import MainLayout from '../../layouts/MainLayout/MainLayout';
+import { imagePlaceHolder } from '../../utils';
 import * as api from '../../repository/api';
 import style from './ShowDetail.module.scss';
 
@@ -25,7 +26,11 @@ const ShowDetail = () => {
               </span>
             </div>
             <div className={style.content}>
-              <img className={style.img} src={detail.image.original} alt={detail.name} />
+              <img
+                className={style.img}
+                src={imagePlaceHolder(detail.image, 'original')}
+                alt={detail.name}
+              />
               <div
                 className={style.description}
                 dangerouslySetInnerHTML={{

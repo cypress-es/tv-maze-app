@@ -3,6 +3,7 @@ import MainLayout from '../../layouts/MainLayout/MainLayout';
 import ListItem from '../../components/ListItem/ListItem';
 import SearchForm from '../../components/SearchForm/SearchForm';
 import * as api from '../../repository/api';
+import { imagePlaceHolder } from '../../utils';
 import style from './HomePage.module.scss';
 
 const HomePage = () => {
@@ -19,6 +20,7 @@ const HomePage = () => {
       title: filters.inputValue,
       options: filters.selectedOptions,
     };
+    console.log(apiFilter);
     api.getShows(apiFilter)
       .then(items => {
         setItems(items);
@@ -33,7 +35,7 @@ const HomePage = () => {
             key={item.id}
             id={item.id}
             title={item.name}
-            image={item.image.medium}
+            image={imagePlaceHolder(item.image, 'medium')}
           />
         ))}
       </div>
