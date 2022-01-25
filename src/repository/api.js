@@ -6,9 +6,10 @@ const filterResults = (results, options = {}) => (
   results.filter(result => {
     const keys = Object.keys(options);
     if (keys.length === 0) return true;
-    return Object.keys(options).some(key => (
+    const filteredKeys = keys.filter(key => (
       result[key] === options[key]
     ))
+    return filteredKeys.length === keys.length;
   })
 );
 

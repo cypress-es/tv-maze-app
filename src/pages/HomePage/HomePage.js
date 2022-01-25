@@ -29,6 +29,12 @@ const HomePage = () => {
   return (
     <MainLayout>
       <SearchForm onSubmit={searchShow} />
+      {items && items.length === 0 && (
+        <div className={style.notFound}>
+          <h3>🔍</h3>
+          <h5>No results</h5>
+        </div>
+      )}
       <div className={style.listContainer}>
         {items && items.map(item => (
           <ListItem
