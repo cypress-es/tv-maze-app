@@ -20,7 +20,26 @@ const createComment = async (showId, payload) => {
   }
 };
 
+const getAdminComments = async () => {
+  try {
+    const { data: comments } = await axios.get('/comments');
+    return comments;
+  } catch (err) {
+    throw err;
+  }
+};
+
+const deleteComment = async commentId => {
+  try {
+    await axios.delete(`/comments/${commentId}`);
+  } catch (err) {
+    throw err;
+  }
+};
+
 export {
   getComments,
   createComment,
+  getAdminComments,
+  deleteComment,
 };

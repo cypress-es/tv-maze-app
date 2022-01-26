@@ -12,7 +12,7 @@ const sortByDate = comments => (
   ))
 );
 
-const Comments = () => {
+const Comments = ({ admin }) => {
   const [comments, setComments] = useState([])
   const { id } = useParams();
 
