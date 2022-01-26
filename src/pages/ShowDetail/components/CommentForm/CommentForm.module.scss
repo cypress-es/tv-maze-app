@@ -1,0 +1,12 @@
+@import './../../../../styles/variables';
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  .input {
+    padding: 10px;
+    border: 1px solid $Border;
+    border-radius: 4px;
+  }
+}

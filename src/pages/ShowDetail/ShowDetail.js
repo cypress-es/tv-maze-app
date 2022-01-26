@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import MainLayout from '../../layouts/MainLayout/MainLayout';
+import Comments from './components/Comments/Comments';
 import { imagePlaceHolder } from '../../utils';
 import * as api from '../../repository/api';
 import style from './ShowDetail.module.scss';
@@ -38,6 +39,7 @@ const ShowDetail = () => {
                 }}
               />
             </div>
+            <Comments />
           </div>
         )}
       </div>
