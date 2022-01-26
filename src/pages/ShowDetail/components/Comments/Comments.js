@@ -14,11 +14,13 @@ const sortByDate = comments => (
 
 const Comments = ({ admin }) => {
   const [comments, setComments] = useState([])
+  const [error, setError] = useState(false)
   const { id } = useParams();
 
   const getComments = async showId => {
-    const comments = await api.getComments(showId);
-    setComments(comments);
+    api.getComments(showId)
+      .then(comments => setComments(comments))
+      .catch(() => setError(true));
   };
 
   useEffect(() => {
@@ -41,6 +43,9 @@ const Comments = ({ admin }) => {
       <CommentForm
         handleSubmit={createComment}
       />
+      {error && (
+        <h5>Error loading comments</h5>
+      )}
       <div className={style.list}>
         {sortByDate(comments).map(comment => (
           <CommentItem
