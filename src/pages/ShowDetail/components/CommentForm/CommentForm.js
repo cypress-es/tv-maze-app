@@ -1,6 +1,10 @@
 
 import style from './CommentForm.module.scss';
 
+const getAuthor = () => (
+  localStorage.getItem('author') ? localStorage.getItem('author') : ''
+);
+
 const CommentForm = ({ handleSubmit }) => {
   const onSubmit = e => {
     e.preventDefault();
@@ -8,6 +12,7 @@ const CommentForm = ({ handleSubmit }) => {
       author: e.target.author.value,
       text: e.target.comment.value,
     });
+    localStorage.setItem('author', e.target.author.value);
   };
   return (
     <form className={style.form} onSubmit={onSubmit}>
@@ -16,6 +21,7 @@ const CommentForm = ({ handleSubmit }) => {
         className={`u-full-width ${style.input}`}
         id="author"
         name="author"
+        defaultValue={getAuthor()}
       />
       <label htmlFor="comment">comment</label>
       <textarea id="comment" name="comment"></textarea>
