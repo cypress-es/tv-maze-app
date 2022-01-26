@@ -32,6 +32,9 @@ const Admin = () => {
     <MainLayout>
       <h1 className={style.title}>Comment list</h1>
       <div className={style.list}>
+        {comments.length === 0 && (
+          <h3>No comments</h3>
+        )}
         {sortByDate(comments).map(comment => (
           <div key={comment.id} className={style.commentItem}>
             <CommentItem
