@@ -1,12 +1,12 @@
 import style from './CommentItem.module.scss';
 
-const CommentItem = () => (
+const CommentItem = ({ author, date, text }) => (
   <div className={style.container}>
     <div className={style.header}>
-      <span className={style.author}>author</span>
-      <span className={style.date}>{new Date().toISOString()}</span>
+      <span className={style.author}>{author}</span>
+      <span className={style.date}>{date}</span>
     </div>
-    <p>lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit ametlorem ipsum dolor sit ametlorem ipsum dolor sit amet</p>
+    <p>{text}</p>
   </div>
 );
 

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import MainLayout from '../../layouts/MainLayout/MainLayout';
 import ListItem from '../../components/ListItem/ListItem';
 import SearchForm from '../../components/SearchForm/SearchForm';
-import * as api from '../../repository/api';
+import * as api from '../../repository/shows';
 import { imagePlaceHolder } from '../../utils';
 import style from './HomePage.module.scss';
 
