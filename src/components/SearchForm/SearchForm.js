@@ -34,7 +34,6 @@ const SearchForm = ({ onSubmit }) => {
 
   return (
     <form
-      data-cy="search-form"
       onSubmit={e => {
         e.preventDefault();
         onSubmit({
@@ -48,7 +47,6 @@ const SearchForm = ({ onSubmit }) => {
           <label htmlFor="searchShow">Search yor show</label>
           <input
             className={`u-full-width ${style.titleInput}`}
-            data-cy="search-form-input"
             type="text"
             id="searchShow"
             placeholder="search your favorite show"
@@ -81,20 +79,18 @@ const SearchForm = ({ onSubmit }) => {
         <div className={style.actionsContainer}>
           <input
             className="button-primary"
-            data-cy="submit-button"
             type="submit"
             value="Submit"
           />
           <button
             className={`button-primary ${style.filterButton}`}
-            data-cy="filter-button"
             type="button"
             onClick={() => handleFilterToggle()}
           >
             {!showFilters ? (
-              <img data-cy="filter-on-image" src={filterIcon} alt="filter icon on" />
+              <img src={filterIcon} alt="filter icon on" />
             ) : (
-              <img data-cy="filter-off-image" src={filterIconOff} alt="filter icon off" />
+              <img src={filterIconOff} alt="filter icon off" />
             )}
           </button>
         </div>
