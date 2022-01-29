@@ -23,7 +23,7 @@ describe('basic commands examples', () => {
     cy.get('[data-cy=list-item]').should('have.length', 240);
   });
 
-  it.only('eventos click y type', () => {
+  it('eventos click y type', () => {
     // bad practice
     // cy.get('#searchShow');
     cy.get('[data-cy=search-form-input-text]').type('Orphan');
