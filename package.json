@@ -19,6 +19,8 @@
   "scripts": {
     "start": "cross-env react-scripts start",
     "server": "cross-env node server.js",
+    "cy:open": "cross-env cypress open",
+    "cy:run": "cross-env cypress run",
     "build": "cross-env react-scripts build",
     "test": "cross-env react-scripts test",
     "setup": "node setup.js"
@@ -43,6 +45,7 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
+    "cypress": "^9.3.1",
     "json-server": "^0.17.0"
   }
 }
