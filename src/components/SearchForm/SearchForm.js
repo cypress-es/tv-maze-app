@@ -14,9 +14,7 @@ const SearchForm = ({ onSubmit }) => {
   const [selectedOptions, setSelectedOptions] = useState(optionsInitialState);
   const handleFilterToggle = () => {
     toggleFilter(!showFilters)
-    console.log(showFilters);
     if (showFilters) {
-      console.log('????');
       onSubmit({
         inputValue,
         selectedOptions: optionsInitialState,
@@ -47,6 +45,7 @@ const SearchForm = ({ onSubmit }) => {
           <label htmlFor="searchShow">Search yor show</label>
           <input
             className={`u-full-width ${style.titleInput}`}
+            data-cy="search-form-input-text"
             type="text"
             id="searchShow"
             placeholder="search your favorite show"
@@ -69,7 +68,7 @@ const SearchForm = ({ onSubmit }) => {
             <div>
               <label htmlFor="searchStatus">Status</label>
               <Select
-                name="status"
+                name="type"
                 options={STATUS}
                 onChange={changeSelect('status')}
               />
@@ -79,11 +78,13 @@ const SearchForm = ({ onSubmit }) => {
         <div className={style.actionsContainer}>
           <input
             className="button-primary"
+            data-cy="search-form-submit-button"
             type="submit"
             value="Submit"
           />
           <button
             className={`button-primary ${style.filterButton}`}
+            data-cy="search-form-filter-button"
             type="button"
             onClick={() => handleFilterToggle()}
           >
