@@ -38,7 +38,10 @@
         ],
         "files": [
           "cypress/**/*.js"
-        ]
+        ],
+        "rules": {
+          "testing-library/await-async-utils": 0
+        }
       }
     ]
   },

@@ -8,11 +8,13 @@ import style from './HomePage.module.scss';
 
 const HomePage = () => {
   const [items, setItems] = useState(null);
+  const [error, setError] = useState(false);
   useEffect(() => {
     api.getShows()
       .then(items => {
         setItems(items);
-      });
+      })
+      .catch(() => setError(true));
   }, []);
 
   const searchShow = filters => {
@@ -24,13 +26,20 @@ const HomePage = () => {
     api.getShows(apiFilter)
       .then(items => {
         setItems(items);
-      });
+      })
+      .catch(() => setError(true));
   };
   return (
     <MainLayout>
       <SearchForm onSubmit={searchShow} />
+      {error && (
+        <div className={style.notFound} data-cy="homepage-error">
+          <h3>❌</h3>
+          <h5>There was an error</h5>
+        </div>
+      )}
       {items && items.length === 0 && (
-        <div className={style.notFound}>
+        <div className={style.notFound} data-cy="homepage-no-results">
           <h3>🔍</h3>
           <h5>No results</h5>
         </div>
