@@ -1,0 +1,586 @@
+[
+  {
+    "score": 0.90511423,
+    "show": {
+      "id": 3,
+      "url": "https://www.tvmaze.com/shows/3/bitten",
+      "name": "Bitten",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Horror",
+        "Romance"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "2014-01-11",
+      "ended": "2016-04-15",
+      "officialSite": "http://bitten.space.ca/",
+      "schedule": {
+        "time": "22:00",
+        "days": [
+          "Friday"
+        ]
+      },
+      "rating": {
+        "average": 7.6
+      },
+      "weight": 96,
+      "network": {
+        "id": 7,
+        "name": "CTV Sci-Fi Channel",
+        "country": {
+          "name": "Canada",
+          "code": "CA",
+          "timezone": "America/Halifax"
+        }
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 34965,
+        "thetvdb": 269550,
+        "imdb": "tt2365946"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/0/15.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/0/15.jpg"
+      },
+      "summary": "<p>Based on the critically acclaimed series of novels from Kelley Armstrong. Set in Toronto and upper New York State, <b>Bitten</b> follows the adventures of 28-year-old Elena Michaels, the world's only female werewolf. An orphan, Elena thought she finally found her \"happily ever after\" with her new love Clayton, until her life changed forever. With one small bite, the normal life she craved was taken away and she was left to survive life with the Pack.</p>",
+      "updated": 1638776591,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/3"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/631862"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.5536117,
+    "show": {
+      "id": 17201,
+      "url": "https://www.tvmaze.com/shows/17201/i-was-bitten",
+      "name": "I Was Bitten",
+      "type": "Documentary",
+      "language": "English",
+      "genres": [],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "2008-08-31",
+      "ended": "2009-09-17",
+      "officialSite": null,
+      "schedule": {
+        "time": "",
+        "days": []
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 18,
+      "network": {
+        "id": 66,
+        "name": "Discovery Channel",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        }
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 299598,
+        "imdb": "tt1288179"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/57/144873.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/57/144873.jpg"
+      },
+      "summary": "<p>The subtitle \"... And Somehow Survived\" could accompany this series that goes around the world to tell the stories of victims of near-fatal animal bites, stories bolstered with actual photos and video footage. From the arid deserts of the Southwestern United States to the lethal waters of Australia, I Was Bitten features victims of the most intense, gruesome, near fatal bites from around the world - with actual photo and video footage. Both the victims and the doctors involved in saving them are interviewed, and the the fascinating science behind the bite is explored, which reveals the devastating aftermath of lethal toxins in the human body.</p>",
+      "updated": 1495818408,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/17201"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/785974"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.43344945,
+    "show": {
+      "id": 45149,
+      "url": "https://www.tvmaze.com/shows/45149/hitmen",
+      "name": "Hitmen",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Comedy",
+        "Crime"
+      ],
+      "status": "To Be Determined",
+      "runtime": null,
+      "averageRuntime": 23,
+      "premiered": "2020-03-25",
+      "ended": null,
+      "officialSite": "https://www.sky.com/watch/title/series/2050a5c2-7c06-406b-8ef8-3f6b4923d04c/hitmen",
+      "schedule": {
+        "time": "",
+        "days": [
+          "Wednesday"
+        ]
+      },
+      "rating": {
+        "average": 5.5
+      },
+      "weight": 97,
+      "network": null,
+      "webChannel": {
+        "id": 117,
+        "name": "Sky Go",
+        "country": {
+          "name": "United Kingdom",
+          "code": "GB",
+          "timezone": "Europe/London"
+        }
+      },
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 353283,
+        "imdb": "tt9041792"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/362/905606.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/362/905606.jpg"
+      },
+      "summary": "<p><b>Hitmen</b> follows two best friends trying to make their way in the world with only each other to rely on. They also just happen to kill people for a living. Having stumbled into a career in contract killing, misfits Fran and Jamie are not your typical killers for hire. Working out of their scruffy van, each episode follows the hapless duo as they try to carry out their latest hit, inevitably derailed by incompetence, bickering, and inane antics. As each hit goes south, our (anti)heroes are thrown into one bizarre misadventure after another, each full of oddball characters and unexpected dilemmas.</p>",
+      "updated": 1636259829,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/45149"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2176709"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.4125849,
+    "show": {
+      "id": 34256,
+      "url": "https://www.tvmaze.com/shows/34256/rotten",
+      "name": "Rotten",
+      "type": "Documentary",
+      "language": "English",
+      "genres": [
+        "Food"
+      ],
+      "status": "To Be Determined",
+      "runtime": 60,
+      "averageRuntime": 58,
+      "premiered": "2018-01-05",
+      "ended": null,
+      "officialSite": "https://www.netflix.com/title/80146284",
+      "schedule": {
+        "time": "",
+        "days": [
+          "Friday"
+        ]
+      },
+      "rating": {
+        "average": 7.4
+      },
+      "weight": 80,
+      "network": null,
+      "webChannel": {
+        "id": 1,
+        "name": "Netflix",
+        "country": null
+      },
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 339636,
+        "imdb": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/212/532280.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/212/532280.jpg"
+      },
+      "summary": "<p><b>Rotten</b> dives deep into the food production underworld to expose the corruption, waste and real dangers behind your everyday eating habits.</p>",
+      "updated": 1578941740,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/34256"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/1721613"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.3969354,
+    "show": {
+      "id": 54402,
+      "url": "https://www.tvmaze.com/shows/54402/better",
+      "name": "Better",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama"
+      ],
+      "status": "In Development",
+      "runtime": 60,
+      "averageRuntime": null,
+      "premiered": null,
+      "ended": null,
+      "officialSite": null,
+      "schedule": {
+        "time": "",
+        "days": []
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 44,
+      "network": {
+        "id": 12,
+        "name": "BBC One",
+        "country": {
+          "name": "United Kingdom",
+          "code": "GB",
+          "timezone": "Europe/London"
+        }
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": null,
+        "imdb": null
+      },
+      "image": null,
+      "summary": "<p><b>Better </b>is a thrilling redemption story set in Leeds, using the landscape of the city and surrounding countryside as a backdrop to what becomes an epic battle for one woman's soul.</p><p>After a family tragedy is narrowly averted, a corrupt police detective undergoes a painful moral awakening and decides to put right 20 years of wrongdoing - but satisfying her newfound conscience won't be straightforward. She slowly realises that her redemption will only be complete once she brings down the powerful gangster she has worked for all this time, a man she helped rise to power, and has come to love like a brother.</p>",
+      "updated": 1617126731,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/54402"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.3890147,
+    "show": {
+      "id": 19570,
+      "url": "https://www.tvmaze.com/shows/19570/bette",
+      "name": "Bette",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Comedy"
+      ],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 30,
+      "premiered": "2000-10-11",
+      "ended": "2001-03-07",
+      "officialSite": null,
+      "schedule": {
+        "time": "20:00",
+        "days": [
+          "Wednesday"
+        ]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 39,
+      "network": {
+        "id": 2,
+        "name": "CBS",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        }
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 71935,
+        "imdb": "tt0247079"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/68/172412.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/68/172412.jpg"
+      },
+      "summary": "<p><b>Bette</b> is an American sitcom which premiered on October 11, 2000 on the CBS network. It was the debut of Bette Midler in a lead TV series role. 16 episodes were aired on CBS, with its final telecast on March 7, 2001. Eighteen episodes in total were produced, with the final two broadcast on HDTV simulcasting and in foreign markets.</p>",
+      "updated": 1617657856,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/19570"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/879740"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.38417703,
+    "show": {
+      "id": 22798,
+      "url": "https://www.tvmaze.com/shows/22798/bitter-blood",
+      "name": "Bitter Blood",
+      "type": "Scripted",
+      "language": "Japanese",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Crime"
+      ],
+      "status": "Ended",
+      "runtime": 54,
+      "averageRuntime": 54,
+      "premiered": "2014-04-15",
+      "ended": "2014-06-24",
+      "officialSite": "http://www.fujitv.co.jp/BitterBlood/",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Tuesday"
+        ]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 28,
+      "network": {
+        "id": 131,
+        "name": "Fuji TV",
+        "country": {
+          "name": "Japan",
+          "code": "JP",
+          "timezone": "Asia/Tokyo"
+        }
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 278039,
+        "imdb": "tt3502954"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/84/211219.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/84/211219.jpg"
+      },
+      "summary": "<p>Sahara Natsuki is the new rookie at the Ginza Police Department First Division. His father, Shimao Akimura, is a veteran in the same division, and Natsuki is assigned to be his new partner.</p>",
+      "updated": 1479039356,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/22798"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/987464"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.36674637,
+    "show": {
+      "id": 6514,
+      "url": "https://www.tvmaze.com/shows/6514/better-things",
+      "name": "Better Things",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Family"
+      ],
+      "status": "Running",
+      "runtime": 30,
+      "averageRuntime": 31,
+      "premiered": "2016-09-08",
+      "ended": null,
+      "officialSite": "http://www.fxnetworks.com/shows/better-things/about",
+      "schedule": {
+        "time": "22:00",
+        "days": [
+          "Monday"
+        ]
+      },
+      "rating": {
+        "average": 6.6
+      },
+      "weight": 97,
+      "network": {
+        "id": 13,
+        "name": "FX",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        }
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 313270,
+        "imdb": "tt4370596"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/242/606743.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/242/606743.jpg"
+      },
+      "summary": "<p><b>Better Things</b> is a semi-autobiographical vehicle for Pamela Adlon similar to the way \"Louie\" is for CK. It centers on Sam, a working actor with no filter trying to earn a living, navigate her daughters' lives, have fun with a friend or two and also — just maybe — squeeze in some private time once in a while.</p>",
+      "updated": 1641745508,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/6514"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/1788189"
+        },
+        "nextepisode": {
+          "href": "https://api.tvmaze.com/episodes/2238771"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.35756904,
+    "show": {
+      "id": 6820,
+      "url": "https://www.tvmaze.com/shows/6820/kitten-bowl",
+      "name": "Kitten Bowl",
+      "type": "Sports",
+      "language": "English",
+      "genres": [],
+      "status": "To Be Determined",
+      "runtime": 60,
+      "averageRuntime": 108,
+      "premiered": "2014-02-02",
+      "ended": null,
+      "officialSite": "http://www.hallmarkchannel.com/kitten-bowl",
+      "schedule": {
+        "time": "14:00",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 37,
+      "network": {
+        "id": 50,
+        "name": "Hallmark Channel",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        }
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 35350,
+        "thetvdb": null,
+        "imdb": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/25/64506.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/25/64506.jpg"
+      },
+      "summary": "<p>Get ready for the biggest feline football sports competition in history! Returing to Hallmark Channel in 2015, <b>Kitten Bowl </b>premieres Sunday, February 1 at 12/11c. TV Personality and North Shore Animal League America spokesperson Beth Stern will be back to host the championship game, alongside legendary, iconic radio voice of the New York Yankees John Sterling as the game's official play-by-play announcer. North Shore Animal League America and Last Hope Animal Rescue and Rehabilitation will provide over 90 adoptable CAT-letes participating, and all kittens part of the Feline Football League will be adopted out immediately following the games. The teams will consist of the cutest, agile and, most importantly, adoptable kittens. The kittens will be joined by celebrities and personalities from all facets of the entertainment world as the kittens compete on obstacle courses filled with lures such as yarn balls, lasers, and toys on string.</p>",
+      "updated": 1632679774,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/6820"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2180393"
+        }
+      }
+    }
+  },
+  {
+    "score": 0.33671343,
+    "show": {
+      "id": 618,
+      "url": "https://www.tvmaze.com/shows/618/better-call-saul",
+      "name": "Better Call Saul",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Legal"
+      ],
+      "status": "Running",
+      "runtime": 60,
+      "averageRuntime": 65,
+      "premiered": "2015-02-08",
+      "ended": null,
+      "officialSite": "http://www.amc.com/shows/better-call-saul",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Monday"
+        ]
+      },
+      "rating": {
+        "average": 8.7
+      },
+      "weight": 99,
+      "network": {
+        "id": 20,
+        "name": "AMC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        }
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 37780,
+        "thetvdb": 273181,
+        "imdb": "tt3032476"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/235/587815.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/235/587815.jpg"
+      },
+      "summary": "<p><b>Better Call Saul</b> is the prequel to the award-winning series Breaking Bad, set six years before Saul Goodman became Walter White's lawyer. When we meet him, the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and often against, Jimmy is \"fixer\" Mike Ehrmantraut, a beloved character introduced in Breaking Bad. The series will track Jimmy's transformation into Saul Goodman, the man who puts \"criminal\" in \"criminal lawyer.</p>",
+      "updated": 1616195999,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/618"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/1794671"
+        }
+      }
+    }
+  }
+]

@@ -60,7 +60,7 @@ const SearchForm = ({ onSubmit }) => {
             <div>
               <label htmlFor="searchType">Type</label>
               <Select
-                name="status"
+                name="type"
                 options={TYPE}
                 onChange={changeSelect('type')}
               />
@@ -68,7 +68,7 @@ const SearchForm = ({ onSubmit }) => {
             <div>
               <label htmlFor="searchStatus">Status</label>
               <Select
-                name="type"
+                name="status"
                 options={STATUS}
                 onChange={changeSelect('status')}
               />
