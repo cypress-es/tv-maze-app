@@ -73,6 +73,9 @@ describe('detail page', () => {
           expect(body.showId).eql(4);
         });
       cy.wait('@commentListAfterPost');
+
+      cy.reload();
+      cy.get('[data-cy=comment-form-author]').should('have.value', 'Author name');
     });
 
     it('should render comment error message', () => {
@@ -87,6 +90,6 @@ describe('detail page', () => {
       cy.get('[data-cy=comment-form-submit-button]').click();
       cy.wait('@createCommentError');
       cy.get('[data-cy=comment-error-message]').should('be.visible');
-    })
+    });
   });
 });
