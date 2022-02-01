@@ -19,8 +19,7 @@ const Comments = ({ admin }) => {
 
   const getComments = async showId => {
     api.getComments(showId)
-      .then(comments => setComments(comments))
-      .catch(() => setError(true));
+      .then(comments => setComments(comments));
   };
 
   useEffect(() => {
@@ -29,12 +28,16 @@ const Comments = ({ admin }) => {
 
   const createComment = async ({ author, text }) => {
     const showId = +id;
-    await api.createComment(showId, {
-      author,
-      text,
-      date: new Date(),
-    });
-    await getComments(showId);
+    try {
+      await api.createComment(showId, {
+        author,
+        text,
+        date: new Date(),
+      });
+      await getComments(showId);
+    } catch (error) {
+      setError(true);
+    }
   };
 
   return (
@@ -44,7 +47,7 @@ const Comments = ({ admin }) => {
         handleSubmit={createComment}
       />
       {error && (
-        <h5>Error loading comments</h5>
+        <h5 data-cy="comment-error-message">Error loading comments</h5>
       )}
       <div className={style.list}>
         {sortByDate(comments).map(comment => (

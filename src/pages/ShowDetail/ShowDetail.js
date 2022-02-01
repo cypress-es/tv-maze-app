@@ -21,8 +21,8 @@ const ShowDetail = () => {
         {detail && (
           <div className={style.container}>
             <div className={style.header}>
-              <h3 className={style.title}>{detail.name}</h3>
-              <span>
+              <h3 className={style.title} data-cy="show-title">{detail.name}</h3>
+              <span data-cy="show-score">
                 {detail.rating.average || 0}
               </span>
             </div>
@@ -34,6 +34,7 @@ const ShowDetail = () => {
               />
               <div
                 className={style.description}
+                data-cy="show-summary"
                 dangerouslySetInnerHTML={{
                   __html: detail.summary
                 }}

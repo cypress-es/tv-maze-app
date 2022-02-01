@@ -19,14 +19,16 @@ const CommentForm = ({ handleSubmit }) => {
       <label htmlFor="author">Author</label>
       <input
         className={`u-full-width ${style.input}`}
+        data-cy="comment-form-author"
         id="author"
         name="author"
         defaultValue={getAuthor()}
       />
       <label htmlFor="comment">comment</label>
-      <textarea id="comment" name="comment"></textarea>
+      <textarea data-cy="comment-form-text" id="comment" name="comment"></textarea>
       <button
         className="button-primary"
+        data-cy="comment-form-submit-button"
         type="submit"
       >
         save comment
