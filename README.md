@@ -1,6 +1,6 @@
 # TV-maze cypress course
 
-This is a project for cypress' [Keepcodings](https://keepcoding.io/) course. Here you can find all the lessons of the course separated by tag.
+Este es un proyecto de cypress para el curso de [Keepcodings](https://keepcoding.io/). A continuación está el índice con los contenidos de los diferentes módulos.
 
 ## lessons
 
@@ -12,25 +12,26 @@ This is a project for cypress' [Keepcodings](https://keepcoding.io/) course. Her
 - [07-network-requests](https://github.com/cypress-es/tv-maze-app/blob/main/lessons/07-network-requests.md)
 - [09-commands](https://github.com/cypress-es/tv-maze-app/blob/main/lessons/09-commands.md)
 
+---
+
 ## How to run the app
 
-This application was created with [CRA](https://reactjs.org/docs/create-a-new-react-app.html) and [json-server](https://github.com/typicode/json-server). It is a basic tv show list app where you can find tv shows and add some comments. We are using [TV-maze API](https://www.tvmaze.com/api) content, and json-server as a local server to store comments, and delete them.
+La aplicación está creada con [CRA](https://reactjs.org/docs/create-a-new-react-app.html) y [json-server](https://github.com/typicode/json-server). Consiste en una app de shows de televisión en la que se puede filtrar y añadir comentarios. Estamos usando [TV-maze API]() para los datos y json-server como servidor local para la gestión de comentarios.
 
 ### `npm run setup`
 
-This script will create the `db.json` script for the `json-server` script.
+Este script crea el archivo `db.json` para el `json-server` script.
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ejecuta la app en modo development.\
+Abrir [http://localhost:3000](http://localhost:3000) para ver la app en el navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+La página se recargará con cada cambio.\
 
 ### `npm run server`
 
-This command will run a server in the port 4000 with these endpoints:
+Este comando ejecutará el servidor en el puerto 4000 con estos endpoints:
 
 ```
 # retrieve all comments
@@ -42,6 +43,8 @@ GET /shows/:id/comments
 # create comment
 POST /comments
 ```
+
+---
 
 ### `npm run build`
 
