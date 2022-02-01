@@ -1,4 +1,4 @@
-# TV-maze cypress course
+# TV-maze cypress curso
 
 Este es un proyecto de cypress para el curso de [Keepcodings](https://keepcoding.io/). A continuación está el índice con los contenidos de los diferentes módulos.
 
@@ -14,13 +14,13 @@ Este es un proyecto de cypress para el curso de [Keepcodings](https://keepcoding
 
 ---
 
-## How to run the app
+## Como ejecutar la app
 
 La aplicación está creada con [CRA](https://reactjs.org/docs/create-a-new-react-app.html) y [json-server](https://github.com/typicode/json-server). Consiste en una app de shows de televisión en la que se puede filtrar y añadir comentarios. Estamos usando [TV-maze API]() para los datos y json-server como servidor local para la gestión de comentarios.
 
 ### `npm run setup`
 
-Este script crea el archivo `db.json` para el `json-server` script.
+Este script crea el archivo `db.json` para el `json-server`.
 
 ### `npm start`
 
@@ -43,24 +43,3 @@ GET /shows/:id/comments
 # create comment
 POST /comments
 ```
-
----
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-
-## Learn More
-
-You can learn more about [cypress](https://www.cypress.io/) in the official docs page. I would recommend the [best practices website](https://docs.cypress.io/guides/references/best-practices) to improve your cypress code.
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
