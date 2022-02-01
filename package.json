@@ -22,6 +22,7 @@
     "cy:open": "cross-env cypress open",
     "start:tests": "cross-env start-server-and-test start http://localhost:3000 server http://localhost:4000 cy:open",
     "cy:run": "cross-env cypress run",
+    "ci:tests": "cross-env start-server-and-test start http://localhost:3000 server http://localhost:4000 cy:run",
     "build": "cross-env react-scripts build",
     "test": "cross-env react-scripts test",
     "setup": "node setup.js"
