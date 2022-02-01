@@ -48,8 +48,10 @@ describe('detail page', () => {
     });
 
     it('should create one comment', () => {
-      cy.get('[data-cy=comment-form-author]').type('Author name');
-      cy.get('[data-cy=comment-form-text').type('Lorem ipsum dolor sit amet');
+      cy.completeCommentForm(
+        'Author name',
+        'Lorem ipsum dolor sit amet',
+      );
       cy.intercept({
         url: '/shows/4/comments',
         method: 'GET',
@@ -74,13 +76,17 @@ describe('detail page', () => {
         });
       cy.wait('@commentListAfterPost');
 
+
+      cy.setLocalStorage('author', 'Author localstorage');
       cy.reload();
-      cy.get('[data-cy=comment-form-author]').should('have.value', 'Author name');
+      cy.get('[data-cy=comment-form-author]').should('have.value', 'Author localstorage');
     });
 
     it('should render comment error message', () => {
-      cy.get('[data-cy=comment-form-author]').type('Author name');
-      cy.get('[data-cy=comment-form-text').type('Lorem ipsum dolor sit amet');
+      cy.completeCommentForm(
+        'Author name',
+        'Lorem ipsum dolor sit amet',
+      );
       cy.intercept({
         url: '/shows/4/comments',
         method: 'POST',

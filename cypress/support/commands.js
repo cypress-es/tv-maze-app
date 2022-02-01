@@ -23,3 +23,14 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('completeCommentForm', (author, message) => {
+  cy.get('[data-cy=comment-form-author]').type(author);
+  cy.get('[data-cy=comment-form-text').type(message);
+});
+
+Cypress.Commands.add('setLocalStorage', (key, value) => {
+  cy.get('html').then(() => {
+    window.localStorage.setItem(key, value);
+  });
+});
