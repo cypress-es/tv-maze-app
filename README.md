@@ -2,6 +2,16 @@
 
 This is a project for cypress' [Keepcodings](https://keepcoding.io/) course. Here you can find all the lessons of the course separated by tag.
 
+## lessons
+
+- [02-cypress-hello-world](https://github.com/cypress-es/tv-maze-app/blob/main/lessons/02-cypress-hello-world.md)
+- [03-mejoramos-setup](https://github.com/cypress-es/tv-maze-app/blob/main/lessons/03-mejoramos-setup.md)
+- [04-cypress-config](https://github.com/cypress-es/tv-maze-app/blob/main/lessons/04-cypress-config.md)
+- [05-comandos-basicos](https://github.com/cypress-es/tv-maze-app/blob/main/lessons/05-comandos-basicos.md)
+- [06-fixtures-alias](https://github.com/cypress-es/tv-maze-app/blob/main/lessons/06-fixtures-alias.md)
+- [07-network-requests](https://github.com/cypress-es/tv-maze-app/blob/main/lessons/07-network-requests.md)
+- [09-commands](https://github.com/cypress-es/tv-maze-app/blob/main/lessons/09-commands.md)
+
 ## How to run the app
 
 This application was created with [CRA](https://reactjs.org/docs/create-a-new-react-app.html) and [json-server](https://github.com/typicode/json-server). It is a basic tv show list app where you can find tv shows and add some comments. We are using [TV-maze API](https://www.tvmaze.com/api) content, and json-server as a local server to store comments, and delete them.
