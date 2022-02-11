@@ -82,7 +82,7 @@ describe('detail page', () => {
       cy.get('[data-cy=comment-form-author]').should('have.value', 'Author localstorage');
     });
 
-    it('should render comment error message', () => {
+    it.only('should render comment error message', () => {
       cy.completeCommentForm(
         'Author name',
         'Lorem ipsum dolor sit amet',

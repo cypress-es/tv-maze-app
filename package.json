@@ -8,6 +8,7 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.25.0",
+    "cypress": "https://cdn.cypress.io/beta/npm/10.0.0/darwin-x64/circle-10.0-release-faa8fb5302ae8fac4ac53f1dcd214abe35bce3ab/cypress.tgz",
     "node-sass": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -19,6 +20,7 @@
   "scripts": {
     "start": "cross-env BROWSER=none react-scripts start",
     "server": "cross-env node server.js",
+    "cy:clear": "cypress cache clear",
     "cy:open": "cross-env cypress open",
     "start:tests": "cross-env start-server-and-test start http://localhost:3000 server http://localhost:4000 cy:open",
     "cy:run": "cross-env cypress run",
@@ -60,8 +62,9 @@
     ]
   },
   "devDependencies": {
+    "@cypress/react": "^5.12.3",
+    "@cypress/webpack-dev-server": "^1.8.1",
     "cross-env": "^7.0.3",
-    "cypress": "^9.3.1",
     "eslint-plugin-cypress": "^2.12.1",
     "json-server": "^0.17.0",
     "start-server-and-test": "^1.14.0"
